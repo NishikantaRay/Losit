@@ -1,0 +1,174 @@
+.infinity-container {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: black;
+    background-size: contain;
+    background: url('bg.png') center;
+    font-family: sans-serif;
+}
+
+.infinity-form-block {
+	width: 350px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.infinity-click-box {
+	height: 50px;
+	background-color: #454b69;
+	color: #fff;
+	line-height: 50px;
+	font-size: 20px;
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0,0,0,.5);
+}
+
+.infinity-fold {
+	position: relative;
+	width: 100%;
+	background: rgba(17,24,34,.5);
+	transform-origin: top;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	transition: .5s;
+	perspective: 2000px;
+	transform: rotateX(90deg);
+}
+
+.infinity-fold.active {
+	perspective: 2000px;
+	transform: rotateX(0deg);
+}
+
+.infinity-form .form-input input {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 40px;
+	box-shadow: none;
+	outline: none;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+}
+
+.infinity-form .form-input input::placeholder {
+	color: #fff;
+}
+
+.infinity-form .form-input input:focus,
+.infinity-form .form-input input:valid {
+	border: 2px solid #454b69;
+}
+
+.infinity-form .form-input input:focus::placeholder {
+    color: #454b69;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #454b69 !important;
+  border:0px;
+}
+
+.infinity-form button[type="submit"] {
+	margin-top: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+	background: linear-gradient(45deg, #454b69, #686d8b);
+	color: #fff;
+	font-weight: bold;
+	transition: 0.5s;
+	margin-bottom: 10px;
+}
+
+.infinity-form button[type="submit"]:hover {
+	background: linear-gradient(45deg, #686d8b, #454b69);
+}
+
+.forget-link , .login-link , .register-link {
+	color: #fff;
+	font-weight: bold;
+}
+
+.forget-link:hover , .login-link:hover , .register-link:hover {
+	color: #454b69;
+	text-decoration: none;
+}
+
+.infinity-social-btn ul{
+	display: flex;
+}
+
+.infinity-social-btn ul li{
+	position: relative;
+	list-style: none;
+	width: 50px;
+	height: 50px;
+	top: 10px;
+	left: 20px;
+	align-items: center;
+	margin-right: 20px;
+	background: #fff;
+	text-align: center;
+	border: 4px solid transparent;
+	box-sizing: border-box;
+	border-radius: 50%;
+	transition: .5s;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.infinity-social-btn  ul li .facebook .fa {
+	color: #3b5999;
+}
+.infinity-social-btn  ul li .google .fa {
+	color: #dd4b39;
+}
+.infinity-social-btn  ul li .twitter .fa {
+	color: #33ccff;
+}
+
+.infinity-social-btn  ul li:hover:nth-child(1) {
+	background-color: #3b5999
+}
+
+.infinity-social-btn ul li:hover:nth-child(2) {
+	background-color: #dd4b39;
+}
+
+.infinity-social-btn ul li:hover:nth-child(3) {
+	background-color: #55acee;
+}
+
+.infinity-social-btn  ul li .fa {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 24px;
+	color: #2196f3;
+	transition: .5s;
+}
+
+.infinity-social-btn  ul li .fa:nth-child(1) {
+	left: -50%;
+	opacity: 0;
+}
+
+.infinity-social-btn ul li:hover .fa:nth-child(1) {
+	left: 50%;
+	opacity: 1;
+	color: #fff;
+}
+
+.infinity-social-btn ul li:hover .fa:nth-child(2) {
+	left: 150%;
+	opacity: 0;
+}
