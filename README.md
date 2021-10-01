@@ -33,9 +33,9 @@ Make changes
 
 
 
-![App Screenshot](neumorphism login/Annotation 2021-10-01 090849.png)
+![App Screenshot](neumorphism%20login/Annotation%202021-10-01%20090849.png)
 
-![App Screenshot](Annotation 2021-10-01 221944.png)
+![App Screenshot](Annotation%202021-10-01%20221944.png)
 
 
 ![App Screenshot](https://raw.githubusercontent.com/NishikantaRay/Login-Signup-Templates/main/neumorphism%20login/Annotation%202021-10-01%20090849.png)
@@ -45,7 +45,5 @@ Make changes
 ![App Screenshot](image/pic4.png)
 
 ![App Screenshot](image/landingpage1.png)
-
-
 
 
