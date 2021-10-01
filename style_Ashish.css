@@ -9,6 +9,7 @@ body {
     background: #1A2226;
     text-align: center;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    
 }
 
 .login-key {
@@ -28,7 +29,10 @@ body {
     margin-top: 15px;
     font-weight: bold;
     color: #ECF0F5;
+    text-shadow: 0 0 30px  #00bcd4;
+    transition: 1s ;
 }
+
 
 .login-form {
     margin-top: 25px;
@@ -64,6 +68,7 @@ input[type=password] {
 .form-group {
     margin-bottom: 40px;
     outline: 0px;
+    margin-left: 39%;
 }
 
 .form-control:focus {
@@ -124,4 +129,5 @@ label {
 
 .loginbttm {
     padding: 0px;
+    margin-left: 50%;
 }
