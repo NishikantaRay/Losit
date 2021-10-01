@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container bg">
+            <div class="form-wrapper">
+              <div class="form-content">
+          
+                <div class="header">
+                  <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.56 121.56"><path fill="currentColor"d="M0,0V121.56H121.56V0ZM89.43,103.71a14.3,14.3,0,1,1,14.3-14.3A14.31,14.31,0,0,1,89.43,103.71Z"/></svg>
+                  
+                  </div>
+                  <div class="separator"></div>
+                  <h1 class="title">Sign Up</h1>
+                </div>
+          
+                <p class="subtitle">
+                  Already have an account?
+                  <a class="link login-anchor" href="#">Log in</a>
+                </p>
+                <form id="form">
+                  <div class="form-control">
+                    <div class="input-base">
+                      <input type="email" placeholder="Email" id="email" class="input input__email" required />
+                      <label class="label label__email" for="email">Email*</label>
+                      <fieldset>
+                        <legend>
+                          <span>Email*</span>
+                        </legend>
+                      </fieldset>
+                      <div class="control-error">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z">
+                          </path>
+                        </svg>
+                        <span>This is not a valid Email.</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-control">
+                    <div class="input-base">
+                      <input type="password" minlength="4" maxlength="8" placeholder="Password" id="password" class="input input__password" required />
+                      <label class="label label__passwords" for="password">Password*</label>
+                      <fieldset>
+                        <legend>
+                          <span>Password*</span>
+                        </legend>
+                      </fieldset>
+                      <div class="control-error">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z">
+                          </path>
+                        </svg>
+                        <span>This is not a valid Password.</span>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="form-control form-control__checkbox">
+                    <input type="checkbox" name="terms" id="terms__checkbox" class="input input__checkbox" required />
+                    <label class="label__terms" for="terms__checkbox">
+                      <div class="input__frame">
+                        <svg xml:space="preserve" focusable="false" version="1.1" viewBox="0 0 24 24">
+                          <path d="M4.1,12.7 9,17.6 20.3,6.3" fill="none" stroke="white"></path>
+                        </svg>
+                      </div>
+                    </label>
+                    <div class="message">
+                      I agree to all the
+                      <a class="link terms-anchor" href="#">Terms</a>,
+                      <a class="link pp-anchor" href="#">Privacy Policy</a> and
+                      <a class="link pp-anchor" href="#">Fees</a>.
+                    </div>
+                  </div>
+          
+                  <div class="actions-buttons">
+                    <button id="submit" type="submit" class="btn">
+                      <span class="btn__text">Create account</span>
+                      <div class="loader">
+                        <div class="cir"></div>
+                        <div class="cir"></div>
+                        <div class="cir"></div>
+                      </div>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
