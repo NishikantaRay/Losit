@@ -29,9 +29,13 @@ Make changes
 
 ![App Screenshot](image/pic6.png)
 
-![App Screenshot](image/pic7.png)
+![App Screenshot](image/pic6.png)
 
+![App Screenshot](image/l2.png)
 
+![App Screenshot](image/contactpage-1.png)
+
+![App Screenshot](GlassUi-Loginpage/glass-login.png)
 
 ![App Screenshot](neumorphism%20login/Annotation%202021-10-01%20090849.png)
 
@@ -46,4 +50,16 @@ Make changes
 
 ![App Screenshot](image/landingpage1.png)
 
+![App Screenshot](image/loginpage10.png)
 
+![App Screenshot](image/glass-login.png)
+
+![App Screenshot](image/loginpage1.png)
+
+![App Screenshot](image/asish.png)
+
+![App Screenshot](image/asish.png)
+
+![App Screenshot](image/loginp.png)
+
+![App Screenshot](contactpage-1/contactpage-1.png)

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register 6</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</head>
+<body>
+	<div class="infinity-container">
+		<div class="infinity-form-block">
+			<div class="infinity-click-box text-center">Click Here to Register</div>
+			
+			<!-- FORM BEGIN -->
+			<div class="infinity-fold">
+				<div class="infinity-form">
+					<!-- Form -->
+					<form>
+						<!-- Input Box -->
+						<div class="form-input">
+							<input type="text" name="" placeholder="Full Name" required>
+						</div>
+						<div class="form-input">
+							<input type="email" name="" placeholder="Email Address" required>
+						</div>
+						<div class="form-input">
+							<input type="password" name="" placeholder="Password" required>
+						</div>
+						<!-- Register Button -->
+						<button type="submit" class="btn btn-block">Register</button>
+						<div class="text-center text-white">or register with</div>
+						<div class="infinity-social-btn text-center">
+							<ul class="text-center">
+								<!-- Facebook Button -->
+								<li class="text-center"><a href="#" class="facebook">
+									<i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a>
+								</li>
+
+								<!-- Google Button -->
+								<li class="text-center"><a href="#" class="google">
+									<i class="fa fa-google"></i><i class="fa fa-google"></i></a>
+								</li>
+								
+								<!-- Twitter Button -->
+								<li class="text-center"><a href="#" class="twitter">
+									<i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a>
+								</li>
+								</ul>
+						</div>
+						<div class="text-center text-white">Already have an account?
+							<a class="login-link" href="login.html">Login Now</a>
+		            	</div>
+					</form>
+				</div>
+			</div>
+			<!-- FORM END -->
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('.infinity-click-box').click(function()
+			{
+				$('.infinity-fold').toggleClass('active')
+			})
+		})
+	</script>
+</body>
+</html>
