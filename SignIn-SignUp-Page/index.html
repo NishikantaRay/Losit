@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="user signinBx">
+                <div class="imgBx">
+                    <img src="img1.jpg" alt="">
+                </div>
+                <div class="formBx">
+                    <form action="">
+                        <h2><img src="logo.jpg"><br><br>Sign In</h2>
+                        <input type="text" name="" placeholder="Username">
+                        <input type="password" name="" placeholder="Password">
+                        <input class="sbutton" type="submit" name="" value="login">
+                        <p style="margin-top: 20px; font-size: 12px; letter-spacing: 1px;" class="signup">Don't have an account ? <a href="#" onclick="toggleForm();">Sign Up.</a></p>
+
+                    </form>
+                </div>
+            </div>
+            <div class="user signupBx">
+                <div class="formBx">
+                    <form action="">
+                        <h2><img id="sinlogo" src="logo.jpg"><br><br><br>Create an Account</h2>
+                        <input type="text" name="" placeholder="Username">
+                        <input type="email" name="" placeholder="Email Address">
+                        <input type="password" name="" placeholder="Create Password">
+                        <input type="password" name="" placeholder="Confirm Password">
+                        <input class="sbutton" type="submit" name="" value="Sign Up">
+                        <p style="margin-top: 20px; font-size: 12px; letter-spacing: 1px;" class="signup">Already have an account ? <a href="#" onclick="toggleForm();">Sign In.</a></p>
+
+                    </form>
+                </div>
+                <div class="imgBx">
+                    <img src="img2.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script type="text/javascript">
+        function toggleForm(){
+            var container = document.querySelector('.container');
+            container.classList.toggle('active')
+        }
+    </script>
+    
+</body>
+</html>
