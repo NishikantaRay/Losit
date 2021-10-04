@@ -1,0 +1,43 @@
+input[type=text], input[type=password] ,input[type=email] ,input[type=tel] ,#exampleFormControlTextarea1 {
+    display: inline-block;
+    box-sizing: border-box;
+    /* background: #ecf0f3;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px #fff;
+    border-radius: 15px; */
+}
+
+
+.loginbox{
+    position: absolute;
+    color: rebeccapurple;
+}
+
+#heading{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #280038;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::placeholder{
+    color: #b1b3a4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#newuser{
+    color: #eb2bf2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sub{
+    background: #171718;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

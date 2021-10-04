@@ -17,11 +17,11 @@ Make changes
 
 ## Demo
 
-![App Screenshot](Texture%20Background/pic1.png)
+![App Screenshot](https://raw.githubusercontent.com/NishikantaRay/Login-Signup-Templates/main/Texture%20Background-10/pic1.png)
 
 ![App Screenshot](Login%20Form/pic3.png)
 
-![App Screenshot](Slide%20Down%20Login%20Form/pic2.png)
+![App Screenshot](https://raw.githubusercontent.com/NishikantaRay/Login-Signup-Templates/main/Slide%20Down%20Login%20Form-11/pic2.png)
 
 ![App Screenshot](image/pic4.png)
 
@@ -29,16 +29,15 @@ Make changes
 
 ![App Screenshot](image/pic6.png)
 
-![App Screenshot](image/pic7.png)
+![App Screenshot](image/pic6.png)
 
+![App Screenshot](image/l2.png)
 
+![App Screenshot](image/contactpage-1.png)
 
-![App Screenshot](neumorphism%20login/Annotation%202021-10-01%20090849.png)
+![App Screenshot](image/glass-login.png)
 
-![App Screenshot](Annotation%202021-10-01%20221944.png)
-
-
-![App Screenshot](https://raw.githubusercontent.com/NishikantaRay/Login-Signup-Templates/main/neumorphism%20login/Annotation%202021-10-01%20090849.png)
+![App Screenshot](neumorphism-loginpage-8/Annotation%202021-10-01%20090849.png)
 
 ![App Screenshot](image/landingpage.png)
 
@@ -46,4 +45,16 @@ Make changes
 
 ![App Screenshot](image/landingpage1.png)
 
+![App Screenshot](image/loginpage10.png)
 
+![App Screenshot](image/glass-login.png)
+
+![App Screenshot](image/loginpage1.png)
+
+![App Screenshot](image/asish.png)
+
+![App Screenshot](image/asish.png)
+
+![App Screenshot](image/loginp.png)
+
+![App Screenshot](image/contactpage-1.png)
