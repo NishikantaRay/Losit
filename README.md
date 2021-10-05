@@ -65,3 +65,5 @@ Make changes
 
 ![App Screenshot](loginpage-22/landingpage-5.png)
 
+![App Screenshot](image/minimal-login-form.png)
+
