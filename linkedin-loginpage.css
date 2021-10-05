@@ -1,0 +1,122 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 17px;
+   line-height: 1.8;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   height: 100%;
+   background: linear-gradient(45deg, #0073b1, #0c8996);
+   color: #fff;
+}
+
+a {
+   color: #2598d6;
+   text-decoration: none;
+}
+
+.text-primary {
+   color: #0c8996;
+}
+
+header {
+   margin: 2rem 0 1rem 0;
+}
+
+.header-title h1 {
+   color: white;
+}
+
+.text-primary {
+   background-color: #fff;
+   color: #0073b1;
+   padding: 0 0.2rem;
+   border-radius: 7px;
+}
+
+.header-text {
+   font-size: 1.6rem;
+   margin: 0.5rem 0 1rem 0;
+}
+
+.my-form {
+   background-color: #edf0f3;
+   color: #333;
+   width: 30vw;
+   padding: 0.8rem;
+   margin-bottom: 20%;
+}
+
+input,
+label,
+button {
+   display: block;
+   text-align: left;
+   width: 100%;
+}
+
+.form-group {
+   padding: 0.5rem 1rem;
+}
+
+label {
+   font-size: 13px;
+}
+
+input {
+   padding: 0.5rem 1rem;
+   border: 1px solid #333;
+}
+.submit-btn {
+   text-align: center;
+   background-color: #0073b1;
+   color: #fff;
+   border: none;
+   font-weight: bolder;
+   font-size: 1rem;
+   outline: none;
+   cursor: pointer;
+}
+
+.helper-text {
+   text-align: center;
+   padding: 0.2rem 2rem;
+}
+
+.helper-text small {
+   font-size: 0.7rem;
+}
+
+.sign-in-text {
+   margin: 1rem 0;
+   font-size: 14px;
+}
+
+.main-footer {
+   height: 60px;
+   background-color: #edf0f3;
+   color: #333;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 14px;
+}
+
+.main-footer span {
+   background-color: #333;
+   color: #fff;
+   padding: 0 0.2rem;
+   border-radius: 2px;
+   margin: 0 0.2rem 0 0;
+}
