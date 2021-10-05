@@ -1,0 +1,134 @@
+/**********
+ * ALBUMS *
+ **********/
+
+/* Container for 'Looking for music?' heading, 'Start listening to the best new releases' paragraph and 'launch web player' button */
+.albums-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 1.5rem;
+}
+
+/* 'Looking for music?' heading */
+.albums-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 0.1rem var(--black);
+}
+
+/* 'Start listening to the best new releases' paragraph */
+.albums-content p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+/* 'Launch web player' button */
+.albums-content button {
+  padding: 1.5rem 4.5rem;
+  border-radius: 3rem;
+  outline: none;
+  background: var(--white);
+  color: var(--gray3);
+  font-weight: 700;
+  border-color: var(--gray3);
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.albums-content button:hover {
+  background: var(--gray3);
+  color: var(--white);
+}
+
+.albums-content button:active {
+  background: var(--black);
+  border-color: var(--black);
+}
+
+.albums-cards-container {
+  display: flex;
+  overflow: auto;
+  padding-bottom: 8rem;
+}
+
+/* Removes the horizontal scrollbar */
+.albums-cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Container for the album image and the album info */
+.album {
+  min-width: 50%;
+  padding-left: 3.5rem;
+  box-sizing: content-box;
+}
+
+.album:first-child {
+  padding-left: 1.5rem;
+}
+
+.album:last-child {
+  padding-right: 1.5rem;
+}
+
+.album img {
+  width: 100%;
+  box-shadow: 0.1rem 0.1rem 1.6rem -0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.album img:hover {
+  cursor: pointer;
+}
+
+/* Container for the song title, artist name and play now button */
+.album-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Song title and artist name */
+/* This code will avoid text from wrapping to the next line and it will add an ellipsis at the end */
+.album-info h2,
+.album-info h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+/* Song title */
+.album-info h2 {
+  font-size: 1.75rem;
+  color: var(--gray2);
+  padding-top: 2rem;
+}
+
+/* Artist name */
+.album-info h4 {
+  font-size: 1.5rem;
+  color: var(--gray1);
+  margin: 1rem 0;
+}
+
+.album-info h2,
+.album-info h4 {
+  cursor: pointer;
+}
+
+/* Play now button */
+.album-info a {
+  font-size: 1.5rem;
+  color: var(--green2);
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: all 0.4s ease;
+}
+
+.album-info a:hover {
+  color: var(--green1);
+}
