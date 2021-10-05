@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+body {
+  background: #ececec;
+}
+
+.text {
+  font-family: Poppins;
+  margin: 0px auto 30px auto;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 50px;
+  background: #ececec;
+  border-radius: 20px;
+  -webkit-box-shadow: 20px 20px 30px #c9c9c9,  -10px -10px 60px #ffffff;
+          box-shadow: 20px 20px 30px #c9c9c9,  -10px -10px 60px #ffffff;
+}
+
+.txt-field {
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background: #ececec;
+  font-family: Poppins;
+  color: #4a4a4a;
+  -webkit-box-shadow: inset 8px 8px 10px #b6b6b6,  inset -8px -8px 10px #ffffff;
+          box-shadow: inset 8px 8px 10px #b6b6b6,  inset -8px -8px 10px #ffffff;
+}
+
+.btn {
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffb100), to(#e69500));
+  background: linear-gradient(180deg, #ffb100, #e69500);
+  padding: 10px;
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 20px;
+  color: #ececec;
+  font-family: Poppins;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.btn:hover {
+  background: linear-gradient(80deg, #ffb100, #e69500);
+}
+
+.reset {
+  text-decoration: none;
+  font-family: Poppins;
+  color: #2d2d2d;
+  margin: 5px auto;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.reset:hover {
+  color: #ffb100;
+}
+
+.sign-in-with {
+  margin: 5px auto 5px auto;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 5px 13px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #101010, #0e0e0e);
+  -webkit-box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
+          box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
+}
+
+.media-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #ececec;
+  -webkit-box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
+          box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
+  cursor: pointer;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.icon:hover {
+  -webkit-transform: translateY(-15%);
+          transform: translateY(-15%);
+  background: linear-gradient(145deg, #fdfdfd, #d4d4d4);
+  -webkit-box-shadow: inset 8px 8px 16px #b6b6b6,  inset -8px -8px 16px #ffffff;
+          box-shadow: inset 8px 8px 16px #b6b6b6,  inset -8px -8px 16px #ffffff;
+}
+
+.fb {
+  color: blue;
+}
+
+.ig {
+  color: red;
+}
+
+.gh {
+  color: brown;
+}
+
+@media (max-width: 1000px) {
+  .form {
+    width: 70vw;
+    padding: 35px;
+  }
+  .txt-field {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
