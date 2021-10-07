@@ -16,7 +16,10 @@ Make changes
 5-Go to original project on GitHub & Create a Pull Request
 
 <a href="https://github.com/NishikantaRay/Login-Signup-Templates/graphs/contributors">
-  <img src="https://opencollective.com/Login-Signup-Templates/contributors.svg?width=890&button=false">
+  <img src="https://opencollective.com/NishikantaRay/Login-Signup-Templates/contributors.svg?width=890&button=false">
+</a>
+<a href="https://github.com/NishikantaRay/Login-Signup-Templates/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NishikantaRay/Login-Signup-Templates" />
 </a>
 <!-- ## Demo
 
