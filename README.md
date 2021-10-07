@@ -15,7 +15,10 @@ Make changes
 
 5-Go to original project on GitHub & Create a Pull Request
 
-## Demo
+<a href="https://github.com/NishikantaRay/Login-Signup-Templates/graphs/contributors">
+  <img src="https://opencollective.com/Login-Signup-Templates/contributors.svg?width=890&button=false">
+</a>
+<!-- ## Demo
 
 ![App Screenshot](https://raw.githubusercontent.com/NishikantaRay/Login-Signup-Templates/main/Texture%20Background-10/pic1.png)
 
@@ -66,3 +69,4 @@ Make changes
 ![App Screenshot](loginpage-22/landingpage-5.png)
 
 ![App Screenshot](image/minimal-login-form.png)
+ -->
