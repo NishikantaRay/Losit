@@ -28,8 +28,8 @@ body {
   padding: 50px;
   background: #ececec;
   border-radius: 20px;
-  -webkit-box-shadow: 20px 20px 30px #c9c9c9,  -10px -10px 60px #ffffff;
-          box-shadow: 20px 20px 30px #c9c9c9,  -10px -10px 60px #ffffff;
+  -webkit-box-shadow: 20px 20px 30px #c9c9c9,  -10px -10px 60px #ffffff;
+          box-shadow: 20px 20px 30px #c9c9c9,  -10px -10px 60px #ffffff;
 }
 
 .txt-field {
@@ -41,8 +41,8 @@ body {
   background: #ececec;
   font-family: Poppins;
   color: #4a4a4a;
-  -webkit-box-shadow: inset 8px 8px 10px #b6b6b6,  inset -8px -8px 10px #ffffff;
-          box-shadow: inset 8px 8px 10px #b6b6b6,  inset -8px -8px 10px #ffffff;
+  -webkit-box-shadow: inset 8px 8px 10px #b6b6b6,  inset -8px -8px 10px #ffffff;
+          box-shadow: inset 8px 8px 10px #b6b6b6,  inset -8px -8px 10px #ffffff;
 }
 
 .btn {
@@ -87,8 +87,8 @@ body {
   padding: 5px 13px;
   border-radius: 20px;
   background: linear-gradient(145deg, #101010, #0e0e0e);
-  -webkit-box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
-          box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
+  -webkit-box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
+          box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
 }
 
 .media-icons {
@@ -115,8 +115,8 @@ body {
   height: 50px;
   border-radius: 100%;
   background: #ececec;
-  -webkit-box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
-          box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
+  -webkit-box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
+          box-shadow: 8px 8px 16px #b6b6b6,  -8px -8px 16px #ffffff;
   cursor: pointer;
   -webkit-transition: 250ms;
   transition: 250ms;
@@ -126,8 +126,8 @@ body {
   -webkit-transform: translateY(-15%);
           transform: translateY(-15%);
   background: linear-gradient(145deg, #fdfdfd, #d4d4d4);
-  -webkit-box-shadow: inset 8px 8px 16px #b6b6b6,  inset -8px -8px 16px #ffffff;
-          box-shadow: inset 8px 8px 16px #b6b6b6,  inset -8px -8px 16px #ffffff;
+  -webkit-box-shadow: inset 8px 8px 16px #b6b6b6,  inset -8px -8px 16px #ffffff;
+          box-shadow: inset 8px 8px 16px #b6b6b6,  inset -8px -8px 16px #ffffff;
 }
 
 .fb {
