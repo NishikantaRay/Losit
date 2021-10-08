@@ -1,4 +1,5 @@
-#!(hacktoberfest'21 accepted)[repo images/hacktober.svg]
+<img style="margin:auto;" src="repo%20images/hacktoberfest.svg" alt="hacktoberfest-accepted"/>
+
 # Login Signup Templates 🌟🌟
 Collection of Login Signup Templates
 
