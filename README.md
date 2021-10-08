@@ -1,5 +1,6 @@
 <a href='https://hacktoberfest.digitalocean.com'><img style="margin:auto;" src="repo%20images/hacktoberfest.svg" alt="hacktoberfest-accepted"/></a>
-
+# what is repository about ?
+This repository contains the login/signup templates from many ui types and popular apps login pages.You should also add the login/signup templates to participate in this repo and hacktoberfest.
 # Login Signup Templates 🌟🌟
 Collection of Login Signup Templates
 
