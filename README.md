@@ -1,4 +1,4 @@
-<img style="margin:auto;" src="repo%20images/hacktoberfest.svg" alt="hacktoberfest-accepted"/>
+<a href='://hacktoberfest.digitalocean.com'><img style="margin:auto;" src="repo%20images/hacktoberfest.svg" alt="hacktoberfest-accepted"/></a>
 
 # Login Signup Templates 🌟🌟
 Collection of Login Signup Templates
