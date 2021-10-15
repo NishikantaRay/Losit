@@ -21,6 +21,7 @@ button {
   border: none;
   outline: none;
   background: none;
+  font-family: "Roboto", Arial, sans-serif;
 }
 
 a {
@@ -40,7 +41,7 @@ a {
 
 .text-img-container {
   background: #2874f0;
-  width: 18em;
+  width: 19em;
   height: 80%;
   flex-direction: column;
   justify-content: space-between;
@@ -104,11 +105,11 @@ a {
   opacity: 1;
 }
 
-.password-container{
+.password-container {
   position: relative;
 }
 
-.password-container a{
+.password-container a {
   position: absolute;
   right: 0;
   color: #2874f0;
@@ -126,22 +127,31 @@ a {
   color: #2874f0;
 }
 
-.login-btn, .request-btn {
+.login-btn,
+.request-btn,
+.signup-btn,
+.back-to-login-btn {
   width: 100%;
   padding: 1.1em 0;
   font-size: 0.938rem;
   font-weight: 500;
 }
 
-.login-btn {
+.login-btn,
+.signup-btn {
   color: #ffffff;
   background: #fb641b;
 }
 
-.request-btn{
+.request-btn,
+.back-to-login-btn {
   color: #2874f0;
   background: #ffffff;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.back-to-login-link{
+  width: 100%;
 }
 
 .form h6 {
@@ -150,6 +160,6 @@ a {
   color: #8e8e8e;
 }
 
-.form-container a{
+.form-container a {
   font-weight: 500;
 }
