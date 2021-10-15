@@ -1,0 +1,17 @@
+/* set entire body that is webpage */
+body{
+	background: url(login.jfif);
+	background-size: cover;
+	background-position: center;
+	padding-top: 25vh;	
+}
+/* set form background colour*/
+form{
+	background: rgb(196, 194, 160);
+}
+/* set padding and size of th form */
+.form-container{
+	border-radius: 10px;
+	padding: 30px;
+}
+.btn{min-width:150px;}
