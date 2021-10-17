@@ -4,8 +4,26 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+.section {
+  height: 100%;
+}
+
 body {
-  background: #ffffff;
+  background-color: #ffffff;
+  background-image: url(bg-img.png);
+  background-size: cover;
+  background-position: top;
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
+}
+
+.section {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.8)
+  );
 }
