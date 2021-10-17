@@ -19,6 +19,23 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+input,
+button {
+  border: none;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 .section {
   background: linear-gradient(
     180deg,
@@ -26,4 +43,138 @@ body {
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.8)
   );
+}
+
+.form {
+  background: #ffffff;
+  border-radius: 0.6em;
+  padding: 2em 2.3em;
+  width: 24.5em;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.social-login-container {
+  width: 100%;
+  align-items: stretch;
+  gap: 1em;
+}
+
+.social-login {
+  background-color: #40576d12;
+  color: #0e1318;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+.social-login:hover {
+  background-color: #40576d24;
+}
+
+.social-login svg,
+.social-login span {
+  margin-right: auto;
+}
+
+.social-login:nth-child(2) svg {
+  color: #3b5998;
+}
+
+.social-login:nth-child(3) svg {
+  color: #515154;
+}
+
+.social-login span {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.or {
+  width: 100%;
+}
+
+.or span {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #c0c3c5;
+  margin: 0 0.5em;
+}
+
+.or-line {
+  width: 40%;
+  height: 0.1em;
+  background: #e8ebed;
+}
+
+.email-mobile-password-container,
+.input-container {
+  width: 100%;
+  align-items: stretch;
+}
+
+.email-mobile-password-container {
+  gap: 1em;
+}
+
+.input-container p {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.input-container input {
+  color: #0e1318;
+  padding: 0.8em;
+  border: 0.1em solid #35475a36;
+  border-radius: 0.3em;
+}
+
+.input-container input::placeholder {
+  color: #1e293372;
+}
+
+.input-container input:hover {
+  border-color: #35475a7b;
+}
+
+.input-container input:focus {
+  border-color: #7d2ae8;
+}
+
+.login-btn {
+  background: #7d2ae8;
+  color: #ffffff;
+  width: 100%;
+  padding: 1em 0;
+  border-radius: 0.3em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+}
+
+.login-btn:focus {
+  box-shadow: 0 0 0 5px #7c2ae858;
+}
+
+.forgot-password-signup-container {
+  align-items: stretch;
+  gap: 0.8em;
+}
+
+.forgot-password-signup-container a,
+.forgot-password-signup-container span {
+  font-size: 0.7rem;
+  color: #505253;
+}
+
+.signup a {
+  color: #7d2ae8;
+}
+
+.forgot-password-signup-container a:hover {
+  color: #7c2ae8db;
 }
