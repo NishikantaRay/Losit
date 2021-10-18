@@ -15,7 +15,14 @@ Make changes
 
 5-Go to original project on GitHub & Create a Pull Request
 
-## Demo
+# Contributors
+
+<a href="https://github.com/NishikantaRay/Login-Signup-Templates/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NishikantaRay/Login-Signup-Templates" />
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
+<!-- ## Demo
 
 ![App Screenshot](https://raw.githubusercontent.com/NishikantaRay/Login-Signup-Templates/main/Texture%20Background-10/pic1.png)
 
@@ -65,3 +72,5 @@ Make changes
 
 ![App Screenshot](loginpage-22/landingpage-5.png)
 
+![App Screenshot](image/minimal-login-form.png)
+ -->

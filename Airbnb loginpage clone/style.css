@@ -1,0 +1,83 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+body{
+    background: url(/img/background.jpg);
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #484848;
+    background-color: #fff;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+.container{
+    margin:50px;
+}
+#card{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background: #fbfbfb;
+    border-radius: 8px;
+    height: 568px;
+    width: 681.6px;
+    margin: auto;
+}
+#login-signup{
+    color: #000;
+    font-weight: 800;
+    font: 16px;
+    padding-top: 1.25rem;
+    text-align: center;
+}
+div{
+    display: block;
+}
+.welcome{
+    margin-top: 8px !important;
+    margin-bottom: 24px !important;
+}
+.welcome-content{
+    font-size: 22px;
+    line-height: 26px;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+input{
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#continue{
+  display: inline-block;
+  background: linear-gradient(rgb(247, 44, 128),rgb(230, 27, 78),red);
+  color: #fff;
+  min-width: 100%;
+  padding: 15px 30px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    min-width: 100%;
+    background: #fbfbfb;
+    border-radius: 0.5rem;
+}

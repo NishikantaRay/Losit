@@ -1,0 +1,46 @@
+*{
+    margin-top:8px;
+}
+.github-header{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-style: normal;
+    font-weight: 300;
+    color:#24292f;
+    line-height:36px;
+    font-size:24px;
+    margin-top: 24px;
+}
+.github-login-div{
+    display:flex;
+    justify-content: center;
+}
+.github-login-div-child{
+    background-color: #F6F8FA;
+    width: 300px;
+    border: 1px solid #D8DEE4;
+    border-radius:5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    color:#24292f;
+    line-height:21px;
+    font-size:14px;
+}
+.github-username{
+    padding: 18px;
+}
+.new-github{
+    padding: 10px;
+}
+.footer-github{
+    margin-top: 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    color:#24292f;
+    line-height:18px;
+    font-size:12px;
+}
+a{
+    text-decoration: none;
+}
