@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    background-color: rgb(6, 0, 37);
+    font-family: 'Rubik';
+}
+
+p,
+h1,
+h3,
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.login-btn {
+    width: 15rem;
+    border: none;
+    border-radius: 5px;
+    padding: .4rem;
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(92, 163, 255), rgb(0, 101, 195));
+    box-shadow: 0 0 10px rgb(54, 175, 255);
+    cursor: pointer;
+    display: flex;
+}
+
+.login-btn img {
+    filter: sepia(200%);
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 5%;
+}
+
+#popup {
+    display: none;
+}
+
+.form {
+    width: 27rem;
+    position: relative;
+    left: 50%;
+    padding: 2rem 2rem 8rem 2rem;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 1rem;
+}
+
+.form nav {
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+    font-size: .8rem;
+    padding: .8rem .5rem;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.form nav li a{
+    color: black;
+}
+
+.form nav .personal-active {
+    background-image: linear-gradient(to right, rgb(92, 163, 255), rgb(0, 101, 195));
+    border-radius: 20px;
+    padding: .5rem 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.form nav .personal {
+    border-radius: 20px;
+    padding: .5rem 3rem;
+    font-weight: bold;
+}
+
+.form nav .mybiz-active {
+    background-image: linear-gradient(to right, rgb(218, 134, 24), rgb(250, 52, 102));
+    border-radius: 20px;
+    padding: .5rem 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.form nav .mybiz {
+    border-radius: 20px;
+    padding: .5rem 2rem;
+    font-weight: bold;
+}
+
+.heading {
+    color: rgb(61, 61, 61);
+}
+
+input {
+    border: 0.1px solid rgba(0, 0, 0, 0.322);
+    border-radius: 5px;
+    padding: .7rem;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.cont-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(214, 214, 214);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(230, 230, 230);
+    padding: .8rem;
+}
+
+.g-btn {
+    border: .5px solid rgba(149, 149, 149, 0.363);
+    border-radius: 5px;
+    padding: 0.8rem;
+    font-size: .9rem;
+    font-weight: bold;
+    background-color: #fff;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.g-btn p {
+    margin: .2rem 0 0 1rem;
+    color: rgb(56, 56, 56);
+}
+
+.g-btn img {
+    width: 1.5rem;
+}
+
+label {
+    font-size: .9rem;
+    font-weight: bold;
+    position: relative;
+    top: 10px
+}
+
+.form p {
+    font-size: .7rem;
+}
+
+.p {
+    text-align: center;
+    color: rgb(156, 156, 156);
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 101, 195);
+    cursor: pointer;
+}
+#term-a-mybiz {
+    color: rgb(218, 134, 24);
+}
