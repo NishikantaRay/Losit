@@ -1,19 +1,35 @@
 [
     {
         "id": 1,
-        "name": "Amazon Login Page",
-        "description" : "This is the login page of Amazon",
-        "img": "",
+        "name": "Neumorphism-Login Page",
+        "description" : "This is the login page of the application. It is a neumorphism design with a custom login page.",
+        "img": "Pages/Neumorphism-loginpage/1.png",
         "githuburl": "",
         "liveurl": "",
         "userData": {
-            "nameofcreator": "",
-            "githuburl": "",
-            "linkedinurl": "",
+            "nameofcreator": "Ayush Mohanty",
+            "githuburl": "github.com/ayushmohanty24",
+            "linkedinurl": "https://www.linkedin.com/in/ayush-mohanty-0447941b2/",
             "portfolio": "",
-            "email": "",
-            "twitter": "",
-            "mail": ""
+            "email": "ayushmohantyrimon26@gmail.com",
+            "twitter": "https://mobile.twitter.com/Ayushmohanty24"
+        }
+    },
+
+    {
+        "id": 2,
+        "name": "Neumorphisim-Ui-LoginPage",
+        "description" : "This is the login page of the application. It is a neumorphism design with a custom login page.",
+        "img": "Pages/Neumorphism-loginpage/2.png",
+        "githuburl": "",
+        "liveurl": "",
+        "userData": {
+            "nameofcreator": "Ayush Mohanty",
+            "githuburl": "github.com/ayushmohanty24",
+            "linkedinurl": "https://www.linkedin.com/in/ayush-mohanty-0447941b2/",
+            "portfolio": "",
+            "email": "ayushmohantyrimon26@gmail.com",
+            "twitter": "https://mobile.twitter.com/Ayushmohanty24"
         }
     }
 ]
