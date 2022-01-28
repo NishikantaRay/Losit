@@ -15,6 +15,41 @@ Make changes
 
 5-Go to original project on GitHub & Create a Pull Request
 
+## !!  IMPORTANT !!
+
+1-Add your projectfolder into folder pages
+
+2-Projectfolder structure 
+
+  i-index.html
+  
+  ii-js folder
+  
+  iii-css folder
+  
+  iv-image
+  
+  v-ss of your work
+
+3-Add your userdata into Data/pages.json folder
+``` {
+        "id": 1,
+        "name": "Your clone Page Name",
+        "description" : "This is the login page of this this ...",
+        "img": "",
+        "githuburl": "",
+        "liveurl": "",
+        "userData": {
+            "nameofcreator": "",
+            "githuburl": "",
+            "linkedinurl": "",
+            "portfolio": "",
+            "email": "",
+            "twitter": "",
+            "mail": ""
+        }
+    }
+  ```
 # Contributors
 
 <a href="https://github.com/NishikantaRay/Login-Signup-Templates/graphs/contributors">
