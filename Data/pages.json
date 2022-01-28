@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name": "Amazon Login Page",
+        "description" : "This is the login page of Amazon",
+        "img": "",
+        "githuburl": "",
+        "liveurl": "",
+        "userData": {
+            "nameofcreator": "",
+            "githuburl": "",
+            "linkedinurl": "",
+            "portfolio": "",
+            "email": "",
+            "twitter": "",
+            "mail": ""
+        }
+    }
+]
