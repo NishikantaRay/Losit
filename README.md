@@ -1,38 +1,45 @@
+<h1 align="center">
+   :star2: Login Signup Templates :star2:
+</h1>
+<p align="center">
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/NishikantaRay/Login-Signup-Templates?style=social">
+   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/NishikantaRay/Login-Signup-Templates">
+   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NishikantaRay/Login-Signup-Templates?style=social">
+</p>
 
-# Login Signup Templates 🌟🌟
-Collection of Login Signup Templates
+# About :zap:
+Collection of Login Signup Templates.
 
-# How to Contribute 🔥
+# How to Contribute :dart:
 
-1-Fork this project
+- FIrst fork this project.
 
-2-Clone your forked version ```git clone git@github.com:<YOUR-USERNAME>/Login-Signup-Templates.git```
-Make changes
+- Clone your forked version ```git clone git@github.com:<YOUR-USERNAME>/Login-Signup-Templates.git```
+ and make changes.
 
-3-Commit your changes (write a short descriptive message of what you have done)
+- Commit your changes (write a short descriptive message of what you have done).
 
-4-Push your changes to your forked version
+- Push your changes to your forked version.
 
-5-Go to original project on GitHub & Create a Pull Request
+- Go to original project on GitHub & Create a Pull Request.
 
-## !!  IMPORTANT !!
-
-1-Add your projectfolder into folder pages
-
-2-Projectfolder structure 
-
-  i-index.html
+## :bangbang:  IMPORTANT :bangbang:
+<ul>
+  <li>Add your project folder into folder pages</li>
+  <li><h3>:chains: Project Folder Structure :chains:</h3>
+    <ul>
+      <li>index.html</li>
+      <liJS folder</li>
+      <li>CSS folder</li>
+      <li>Image</li>
+      <li>SS of your work</li>
+    </ul>
+  </li>
+  <li>Add your userdata into Data/pages.json folder</li>
   
-  ii-js folder
   
-  iii-css folder
-  
-  iv-image
-  
-  v-ss of your work
-
-3-Add your userdata into Data/pages.json folder
-``` {
+```
+  {
         "id": 1,
         "name": "Your clone Page Name",
         "description" : "This is the login page of this this ...",
@@ -50,7 +57,7 @@ Make changes
         }
     }
   ```
-# Contributors
+# :fire: Contributors :fire:
 
 <a href="https://github.com/NishikantaRay/Login-Signup-Templates/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=NishikantaRay/Login-Signup-Templates" />
