@@ -1,11 +1,14 @@
 <h1 align="center">
-   :star2: Login Signup Templates :star2:
+   :star2: LoSiT :star2:
 </h1>
 <p align="center">
    <img alt="GitHub forks" src="https://img.shields.io/github/forks/NishikantaRay/Login-Signup-Templates?style=social">
    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/NishikantaRay/Login-Signup-Templates">
    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NishikantaRay/Login-Signup-Templates?style=social">
 </p>
+<img width="2400" alt="Email Banners-Dark" src="https://user-images.githubusercontent.com/62615392/190501454-8a663b23-449e-4496-bad9-df90809bccb1.png">
+
+
 
 # About :zap:
 Collection of Login Signup Templates.
