@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin:0;
+  padding:0;
+  border:border-box;
+}
+body{
+  background:#ececec;
+}
+
+.text{
+  font-family:Poppins;
+  margin:0px auto 30px auto;
+  color:rgba(0,0,0,0.25);
+}
+.form{
+  display:flex;
+  flex-direction:column;
+  max-width: 300px;
+  //height:50vh;
+  margin:50px auto;
+  padding:50px;
+  background:#ececec;
+  border-radius:20px;
+  box-shadow: 20px 20px 30px #c9c9c9, 
+             -10px -10px 60px #ffffff;
+}
+.txt-field{
+  border:none;
+  outline:none;
+  margin-bottom: 20px;
+  padding:10px;
+  border-radius:20px;
+  background:#ececec;
+  font-family:Poppins;
+  color:#4a4a4a;
+  box-shadow: inset 8px 8px 10px #b6b6b6, 
+            inset -8px -8px 10px #ffffff;
+  
+}
+.btn{
+  border:none;
+  background: linear-gradient(180deg, #ffb100, #e69500);
+  padding:10px;
+  //margin-bottom: 20px;
+  width:50%;
+  margin:20px auto;
+  border-radius:20px;
+  color:#ececec;
+  font-family:Poppins;
+  outline:none;
+  cursor:pointer;
+  transition:250ms;
+  &:hover{
+    background: linear-gradient(80deg, #ffb100, #e69500);
+  }
+}
+.reset{
+  text-decoration:none;
+  font-family:Poppins;
+  color:#2d2d2d;
+  margin:5px auto;
+  transition:250ms;
+  &:hover{
+    color:#ffb100;
+  }
+}
+.sign-in-with{
+  margin: 5px auto 5px auto;
+  cursor: pointer;
+  font-family:Poppins;
+  font-size:12px;
+  color:#ffffff;
+  padding:5px 13px;
+  border-radius:20px;
+  background: linear-gradient(145deg, #101010, #0e0e0e);
+  box-shadow:  8px 8px 16px #b6b6b6, 
+             -8px -8px 16px #ffffff;
+}
+.media-icons{
+  display:flex;
+  justify-content:space-around;
+  margin-top:10px;
+  padding:10px;
+}
+.icon{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:50px;
+  height:50px;
+  border-radius:100%;
+  background: #ececec;
+  box-shadow:  8px 8px 16px #b6b6b6, 
+             -8px -8px 16px #ffffff;
+  cursor:pointer;
+  transition:250ms;
+  &:hover{
+    transform:translateY(-15%);
+    background: linear-gradient(145deg, #fdfdfd, #d4d4d4);
+    box-shadow:  inset 8px 8px 16px #b6b6b6, 
+             inset -8px -8px 16px #ffffff;
+  }
+}
+
+.fb{
+  color:blue;
+}
+.ig{
+  color:red;
+}
+.gh{
+  color:brown;
+}
+@media(max-width:1000px){
+  .form{
+    width:70vw;
+    padding:35px;
+  }
+  .txt-field{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}

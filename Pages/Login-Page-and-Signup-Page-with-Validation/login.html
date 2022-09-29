@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Red+Hat+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-wrapper flex-container">
+        <form action="/Login-Page-and-Signup-Page-with-Validation/home.html" class="form">
+            <h1 class="form-title">Login</h1>
+            <p class="form-sub-title">Don't have an account? <a
+                    href="/Login-Page-and-Signup-Page-with-Validation/signup.html">Signup</a></p>
+            <div class="email">
+                <div class="input-container flex-container">
+                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.0527 12H9.8368C9.8368 9.94873 8.11626 8.28047 5.99994 8.28047C3.88361 8.28047 2.16368 9.94934 2.16368 12H0.947754C0.947754 9.27753 3.21485 7.06454 6.00054 7.06454C8.78563 7.06454 11.0527 9.27753 11.0527 12Z"
+                            fill="#010002" />
+                        <path
+                            d="M6.00058 6.66937C4.1627 6.66937 2.6665 5.17256 2.6665 3.33468C2.6659 1.4962 4.1621 0 6.00058 0C7.83967 0 9.33587 1.49559 9.33587 3.33468C9.33587 5.17378 7.83967 6.66937 6.00058 6.66937ZM6.00058 1.21593C4.83207 1.21593 3.88182 2.16618 3.88182 3.33468C3.88182 4.50319 4.83207 5.45344 6.00058 5.45344C7.16969 5.45344 8.11994 4.50319 8.11994 3.33468C8.11994 2.16618 7.16848 1.21593 6.00058 1.21593Z"
+                            fill="#010002" />
+                    </svg>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="password">
+                <div class="input-container flex-container">
+                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.49998 4.00001V3.50002C9.49998 1.5705 7.93 0 5.99999 0C4.06998 0 2.5 1.5705 2.5 3.49999V3.99998C1.67301 3.99998 1 4.67299 1 5.49998V10.5C1 11.327 1.67301 12 2.5 12H9.50001C10.327 12 11 11.327 11 10.5V5.50001C11 4.67299 10.327 4.00001 9.49998 4.00001ZM3.49998 3.49999C3.49998 2.12149 4.62149 0.999984 5.99999 0.999984C7.37849 0.999984 8.5 2.12149 8.5 3.49999V3.99998H3.49998V3.49999ZM10 10.5C10 10.776 9.77549 11 9.50001 11H2.5C2.22449 11 2.00001 10.776 2.00001 10.5V5.50001C2.00001 5.22401 2.22452 5.00002 2.5 5.00002H9.50001C9.77552 5.00002 10 5.22401 10 5.50001V10.5V10.5Z"
+                            fill="black" />
+                        <path
+                            d="M6 5.74997C5.17301 5.74997 4.5 6.42298 4.5 7.24996C4.5 7.90096 4.91951 8.45097 5.50001 8.65797V9.49996C5.50001 9.77645 5.724 9.99995 6 9.99995C6.276 9.99995 6.49999 9.77645 6.49999 9.49996V8.65797C7.08049 8.45097 7.5 7.90096 7.5 7.24996C7.5 6.42298 6.82699 5.74997 6 5.74997ZM6 7.74998C5.72449 7.74998 5.50001 7.52599 5.50001 7.24999C5.50001 6.97399 5.72449 6.74997 6 6.74997C6.27551 6.74997 6.49999 6.97397 6.49999 7.24996C6.49999 7.52596 6.27551 7.74998 6 7.74998Z"
+                            fill="black" />
+                    </svg>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+            </div>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

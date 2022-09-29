@@ -1,0 +1,21 @@
+.root {
+  &__left {
+    background-color: #fcd2d1;
+    &__helper {
+      &:hover {
+        cursor: pointer;
+        color: rgb(250, 111, 157);
+      }
+    }
+  }
+  &__right {
+    background-color: #f5f5f5;
+    &__form,
+    form {
+      width: 100%;
+      padding: 0.7rem;
+      &__control {
+      }
+    }
+  }
+}

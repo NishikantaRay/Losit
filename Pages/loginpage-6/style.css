@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Heebo', sans-serif;
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    /* border: 12px solid black; */
+    color: gray;
+    position: absolute;
+    top: 15%;
+    left: 60%
+}
+.container h1{
+    font-size: 35px;
+    border-bottom: 2px solid purple;
+    margin-bottom: 8px;
+    padding: 3px 0px;
+    display: inline-block;
+    /* margin-left: 80px; */
+}
+.box{
+    border-bottom: 2px solid purple;
+    margin: 20px 0px;
+    width: 127%;
+}
+.box input{
+    background: none;
+    width: 82%;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    font-size: 20px;
+}
+.box i{
+    width: 10%;
+    text-align: center;
+}
+.btn{
+    background: none;
+    cursor: pointer;
+    outline: none;
+    margin: 10px 0px;
+    padding: 6px 14px;
+    border: 2px solid purple;
+    border-radius: 12px;
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn:hover{
+    opacity: 0.5;
+    background-color: gray;
+    color: purple;
+}
+@media only screen and (max-width:1000px)
+{
+   .container{
+       position: absolute;
+       top:20%;
+       left: 50%;
+   }
+   .container h1{
+        font-size: 55px;
+   }
+   .box input{
+       font-size: 30px;
+       width: 80%;
+   }
+   .btn{
+       font-size: 25px;
+   }
+}

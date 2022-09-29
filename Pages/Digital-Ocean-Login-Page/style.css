@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.form-container {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #0061eb;
+  background-image: url("login-bg.png");
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-stretch {
+  align-items: stretch;
+}
+
+.form {
+  width: 30em;
+  background: #ffffff;
+  padding: 1.5em;
+  gap: 1em;
+  border-radius: 0.25em;
+}
+
+.form__title,
+.form__label {
+  color: #031b4e;
+  font-weight: 500;
+}
+
+.form__label {
+  font-size: 0.75rem;
+}
+
+.form__label-mandatory-symbol {
+    color: #0069ff;
+}
+
+.form__input,
+.form__sign-in-btn,
+.form__social-sign-in-btn {
+  padding: 0.9em 1em;
+  border-radius: 0.25em;
+  transition: all 0.5s;
+}
+
+.form__input {
+  border: 0.1em solid #5b6987;
+  font-size: 0.85rem;
+}
+
+.form__input::placeholder {
+  color: #8390af;
+  opacity: 1;
+}
+
+.form__input:hover,
+.form__input:focus {
+  border-color: #0061eb;
+}
+
+.form__sign-in-btn,
+.form__social-sign-in-btn {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  gap: 0.5em;
+  cursor: pointer;
+}
+
+.form__sign-in-btn {
+  background: #0061eb;
+}
+
+.form__sign-in-btn:hover,
+.form__sign-in-btn:focus {
+  opacity: 0.9;
+}
+
+.form__sign-in-btn:focus {
+  box-shadow: 0 0 0 4px #0062eb70;
+}
+
+.form__or {
+  justify-content: space-between;
+}
+
+.form__or-line {
+  width: 44%;
+  height: 0.1em;
+  background: #e5e8ed;
+}
+
+.form__or-title {
+  color: #5b6987;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.form__social-sign-in-btn {
+  padding: 0.7em 0;
+}
+
+.form__google-sign-in-btn {
+  border: 0.2em solid #0061eb;
+  color: #0061eb;
+}
+
+.form__google-sign-in-btn:hover,
+.form__google-sign-in-btn:focus {
+  background: #0061eb;
+  color: #ffffff;
+}
+
+.form__google-sign-in-btn:focus {
+  box-shadow: 0 0 0 4px #0061eb70;
+}
+
+.form__github-sign-in-btn {
+  border: 0.2em solid #003f99;
+  background: #003f99;
+}
+
+.form__github-sign-in-btn:hover,
+.form__github-sign-in-btn:focus {
+    opacity: 0.9;
+}
+
+.form__github-sign-in-btn:focus{
+  box-shadow: 0 0 0 4px #003f9970;
+}
+
+.form__forgot-pasword {
+  color: #0061eb;
+  font-size: 0.9rem;
+}

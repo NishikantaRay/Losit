@@ -1,0 +1,12 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.7;
+  box-sizing: border-box;
+}

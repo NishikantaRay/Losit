@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: sans-serif;
+    }
+    
+    body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    
+    .card{
+    width: 380px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px silver;
+    background: rgb(50%, 50%, 50%);
+    }
+    
+    h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+    }
+    
+    h2:before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background: white;
+    top: 70px;
+    left: 10%;
+    }
+    
+    .input-border{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 30px;
+    }
+    
+    .text{
+    width: 95%;
+    height: 100%;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 2px solid silver;
+    background: none;
+    font-size: 18px;
+    color: rgb(0%, 90%, 80%);
+    }
+    
+    .border{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: .5s;
+    }
+    
+    .text:focus ~ .border,
+    .text:valid ~ .border{
+    width: 100%;
+    }
+    
+    label{
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    color: silver;
+    pointer-events: none;
+    font-size: 18px;
+    transition: .5s;
+    }
+    
+    .text:focus ~ label,
+    .text:valid ~ label{
+    top: -12px;
+    left: 0;
+    color: white;
+    font-size: 14px;
+    }
+    
+    .btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background: none;
+    border: 2px solid silver;
+    color: white;
+    font-size: 18px;
+    transition: .5s;
+    }
+    
+    .btn:hover{
+    border: 2px solid white;
+    }
