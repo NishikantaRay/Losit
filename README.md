@@ -26,40 +26,7 @@ Collection of Login Signup Templates.
 
 - Go to original project on GitHub & Create a Pull Request.
 
-## :bangbang:  IMPORTANT :bangbang:
-<ul>
-  <li>Add your project folder into folder pages</li>
-  <li><h3>:chains: Project Folder Structure :chains:</h3>
-    <ul>
-      <li>index.html</li>
-      <liJS folder</li>
-      <li>CSS folder</li>
-      <li>Image</li>
-      <li>SS of your work</li>
-    </ul>
-  </li>
-  <li>Add your userdata into Data/pages.json folder</li>
-  
-  
-```
-  {
-        "id": 1,
-        "name": "Your clone Page Name",
-        "description" : "This is the login page of this this ...",
-        "img": "",
-        "githuburl": "",
-        "liveurl": "",
-        "userData": {
-            "nameofcreator": "",
-            "githuburl": "",
-            "linkedinurl": "",
-            "portfolio": "",
-            "email": "",
-            "twitter": "",
-            "mail": ""
-        }
-    }
-  ```
+
 # :fire: Contributors :fire:
 
 <a href="https://github.com/NishikantaRay/Login-Signup-Templates/graphs/contributors">
