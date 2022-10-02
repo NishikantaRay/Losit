@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+	list-style: none;
+	font-size: 20px;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	/*line-height: 1.4em;*/
+	height: 100vh;
+	background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+html,body {
+	display: grid;
+	place-items: center;
+	height: 100%;
+}
+
+
+.container {
+	width: 380px;
+	/*
+	background: rgb(33,41,92);
+background: linear-gradient(90deg, rgba(33,41,92,1) 0%, rgba(6,90,130,1) 50%, rgba(33,41,92,1) 100%);
+	*/
+	background-color: #fff;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+	border-radius: 15px 15px 0 0;
+}
+
+.container .header {
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600px;
+	text-align: center;
+	line-height: 100px;
+	background: rgb(63,0,77);
+background: linear-gradient(90deg, rgba(63,0,77,1) 0%, rgba(27,59,111,1) 50%, rgba(63,0,77,1) 100%);
+	border-radius: 12px 12px 0 0;
+}
+
+.container form {
+	padding: 25px 30px;
+}
+
+.container form .field {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.container form .field input,
+.container form .field button {
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+	outline: none;
+}
+
+.container form .field button {
+	border: none;
+}
+
+.container form .field input {
+	border: 1px solid lightgrey;
+	padding-left: 15px;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+	font-size: 17px;
+}
+
+.container form .field input:focus,
+.container form .field input:valid {
+	border-color: #b5179e;
+}
+
+.container form .field input:focus ~ label,
+.container form .field input:valid ~ label{
+	top: 0%;
+	font-size: 16px;
+	color: #b5179e;
+	background-color: #fff;
+}
+
+.container form .field label {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	transition: all 0.3s ease;
+	pointer-events: none;
+	font-size: 17px;
+	color: #999;
+}
+
+.container form .form-link {
+	color: #4158d0;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.container form .form-link span {
+	color: #888;
+}
+
+.container form .form-link .forgot-pass:hover,
+.container form .sign-up a:hover {
+	text-decoration: underline;
+}
+
+.container form .field button {
+	color: #fff;
+	background-color: #b5179e;
+	font-size: 18px;
+	font-weight: 500;
+	padding-left: 0;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.container form .field button:active,
+.container form .field button:hover {
+	transform: scale(0.95);
+	background: rgb(63,0,77);
+background: linear-gradient(90deg, rgba(63,0,77,1) 0%, rgba(27,59,111,1) 50%, rgba(63,0,77,1) 100%);
+	font-size: 19px;
+}
