@@ -1,12 +1,15 @@
+
 const FooterSocialLink = ({
     icon,
     link,
     altAttribute
 }) => {
+    
     return (
         <div>
             <a href={link} target="__blank">
-                <img src={icon} alt={altAttribute} id="footer-social-link-icon" />
+                <img src={icon} width="50" alt={altAttribute} id="footer-social-link-icon" />
+                
             </a>
         </div>
     )
