@@ -1,5 +1,5 @@
 
-import { Schema,model} from 'mongoose';
+const { Schema,model} = require('mongoose');
 
 const CardSchema = new Schema(
   {
@@ -40,4 +40,4 @@ const CardSchema = new Schema(
     timestamps: true
   }
 );
-export default model('Card', CardSchema);
+module.exports = model('Card', CardSchema);
