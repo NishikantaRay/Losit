@@ -1,5 +1,5 @@
 const config={
-    uri:""
+    uri:"mongodb://localhost:27017/losit"
 }
 
 module.exports=config;
