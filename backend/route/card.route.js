@@ -6,6 +6,7 @@ const Card = require("../model/card.model")
 const router=express.Router()
   
 // Handling request using router
+// Create a Card
 router.post("/add", (req, res, next) => {
     const cardData = {
         name : req.body.name,
@@ -27,6 +28,18 @@ router.post("/add", (req, res, next) => {
         }
     })
 })
-  
+// Get all Card
+router.get("/", (req, res, next) => {
+    Card.find({}, (err, docs) => {
+        if (err) {
+            console.log(err);
+            res.send(err)
+        } else {
+            console.log(docs)
+            res.send(docs)
+        }
+    })
+})
+
 // Importing the router
 module.exports=router
