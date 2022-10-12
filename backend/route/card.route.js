@@ -41,5 +41,16 @@ router.get("/", (req, res, next) => {
     })
 })
 
+// Delete A Card
+router.get("/delete/:id", async (req, res, next) => {
+    try {
+        await Card.deleteOne({ _id: req.params.id });
+        res.redirect("/card")
+    } catch (err) {
+        console.log(err)
+        res.redirect("/card")
+    }
+})
+
 // Importing the router
 module.exports=router
