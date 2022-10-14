@@ -41,6 +41,34 @@ router.get("/", (req, res, next) => {
     })
 })
 
+// Update Card Data
+router.post("/edit/:id", (req, res, next) => {
+    var card_id = req.params.id;
+    const updatedCard = {
+        name: req.body.name,
+        description: req.body.description,
+        status: req.body.status,
+        priority: req.body.priority,
+        imgUrl: req.body.imgUrl,
+        socialLinks: req.body.socialLinks,
+        updatedAt : new Date()
+    }
+    Card.findByIdAndUpdate(card_id, updatedCard,{returnDocument: 'after'}, function (err, docs) {
+        if (err){
+            console.log(err)
+            res.send(err)
+        }
+        else {
+            console.log("Updated User : ", docs);
+            if (docs == null) {
+                res.send({})
+            } else {
+                res.send(docs)
+            }
+        }
+    });
+})
+
 // Delete A Card
 router.get("/delete/:id", async (req, res, next) => {
     try {
