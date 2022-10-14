@@ -14,5 +14,7 @@ router.get("/findAll",cardController.findAll)
 
 router.delete("/delete/:id",cardController.delete)
 
+router.put("/update/:id",cardController.update)
+
   
 module.exports=router

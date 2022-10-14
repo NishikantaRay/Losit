@@ -45,3 +45,22 @@ exports.delete = async (req, res) => {
     res.redirect("/card");
   }
 };
+
+// Update A Card
+exports.update = async (req, res) => {
+  try {
+    const cardData = {
+      name: req.body.name,
+      description: req.body.description,
+      status: req.body.status,
+      priority: req.body.priority,
+      imgUrl: req.body.imgUrl,
+      socialLinks: req.body.socialLinks,
+    };
+    await Card.updateOne({ _id: req.params.id }, cardData);
+    res.redirect("/card");
+  } catch (err) {
+    console.log(err);
+    res.redirect("/card");
+  }
+}
