@@ -41,7 +41,16 @@ router.get("/", (req, res, next) => {
     })
 })
 
-
+// Get All Cards having similar keyword in title or description of a card
+router.post("/search", (req, res, next) => {
+    const searchQuery = req.body.keyword;
+    Card.find({ $or : [{name: { $regex: searchQuery, $options: '$i' }}, {description: { $regex: searchQuery, $options: '$i' }}] }).exec((err, docs) => {
+        if (err) {
+            console.log(err)
+            res.send(err)
+        } else {
+            console.log(docs)
+            res.send(docs)
         }
     });
 })
